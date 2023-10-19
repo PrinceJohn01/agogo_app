@@ -1,0 +1,52 @@
+name: agogo
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  flutter_localizations: 
+    sdk: flutter
+  provider: ^6.0.5
+  cached_network_image: ^3.2.1
+  flutter_svg: ^1.1.6
+  pin_code_fields: ^7.3.0
+  flutter_rating_bar: ^4.0.0
+  carousel_slider: ^4.0.0
+  smooth_page_indicator: ^1.0.0+2
+  dotted_border: 2.0.0+3
+  intl: ^0.18.0
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Sora
+      fonts: 
+        - asset: assets/fonts/SoraSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/SoraMedium.ttf
+          weight: 500
+        - asset: assets/fonts/SoraLight.ttf
+          weight: 300
+    - family: Public Sans
+      fonts: 
+        - asset: assets/fonts/PublicSansLight.ttf
+          weight: 300
+        - asset: assets/fonts/PublicSansRegular.ttf
+          weight: 400
+        - asset: assets/fonts/PublicSansSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/PublicSansMedium.ttf
+          weight: 500
+        - asset: assets/fonts/PublicSansBold.ttf
+          weight: 700
+    - family: DM Sans
+      fonts: 
+        - asset: assets/fonts/DMSansBold.ttf
+          weight: 700
